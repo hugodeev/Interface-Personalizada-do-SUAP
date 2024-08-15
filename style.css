@@ -33,6 +33,7 @@ body{
     padding-left: 140px;   
 }
 
+
 .formulário-dados-de-entrada{
    margin-top: 30px;
 }
@@ -122,6 +123,7 @@ a{
 @media screen and (max-width: 500px) {
 
  
+   
 
     .main-principal{
         background-color: #333333;
@@ -146,15 +148,16 @@ a{
 
     .formulário-e-serviços{
         display: block;  
-       }
+    }
+
 
     .formulário-inputs{
-        width: 220px;
+        width: 212px;
         height: 33px;
         border-radius: 3px;
-        font-size: 17px;
+        font-size: 14px;
         padding-left: 5px;
-        margin-left: 40px;
+        margin-left: 44px;
         border-color: rgb(219, 211, 211);
     }
 
