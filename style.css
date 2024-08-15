@@ -125,7 +125,7 @@ a{
 
     .main-principal{
         background-color: #333333;
-        width: 360px ;
+        width: 310px ;
         height: 0%;
         padding-top: 0px;
         padding-left: 0px;
@@ -137,8 +137,8 @@ a{
 
     .formulário{
         background-color: rgb(235, 232, 232);
-        width: 325px;
-        height: 480px;
+        width: 270px;
+        height: 450px;
         border-radius: 10px;
         padding: 15px;
         margin: auto;   
@@ -150,21 +150,21 @@ a{
        }
 
     .formulário-inputs{
-        width: 230px;
+        width: 190px;
         height: 33px;
         border-radius: 3px;
         font-size: 17px;
         padding-left: 5px;
-        margin-left: 48px;
+        margin-left: 40px;
         border-color: rgb(219, 211, 211);
     }
 
     .formulário-butt{
         margin-top: 35px;
         border-radius: 23px;
-        margin-left: 50px;
+        margin-left: 40px;
         height: 44px; 
-        width:240px;
+        width:200px;
         background-color: #449D44;
         color: aliceblue;
         border: #449D44; 
@@ -173,8 +173,8 @@ a{
     
     .logo-suap{   
         margin: auto; 
-        width: 160px;
-        padding-top: 44px ;
+        width: 150px;
+        padding-top: 35px ;
         padding-left: 0%;
         margin-left: 90px;   
     }
