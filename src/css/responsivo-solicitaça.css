@@ -1,0 +1,53 @@
+
+@media screen and (max-width: 500px){
+
+    .toggle-btn {
+        top: 70%;
+        margin-left: 45px;
+    }
+
+    .lateral-direita{
+        width: 200px;
+    }
+    
+    .menu-solicitação{
+        margin-left: 30px;
+    }
+
+    .titulo-solicitação-de-senha{
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    .formulário{
+        margin-left: 30px;
+    }
+
+    .digitação-usuario{
+        margin-left: 12px;
+    }
+
+    .digitação-cpf{
+        margin-left: 12px;
+    }
+
+    .digitação-recaptcha{
+        margin-left: 12px;
+        margin-top: 30px;
+    }
+
+    .input-cpf{
+        margin-left: 36px;
+    }
+
+    .paragrafo-form{
+        margin-left: 12px;
+    }
+
+    .btn-enviar{
+        margin-left: 30px;
+    }
+
+
+}

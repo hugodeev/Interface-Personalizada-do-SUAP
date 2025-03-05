@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+
+    <html lang="pt-br">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title> Solicitação de mudança de senha</title>
+            <link rel="shortcut icon" href="img-suap/logo-suap.png" type="image/x-icon">
+            <link rel="stylesheet" href="src/css/solicitação.css">   
+            <link rel="stylesheet" href="src/css/responsivo-solicitaça.css">
+        </head>
+
+        <body>
+
+            <div class="responsividade-cetral-do-conteudo">
+
+                <header>
+                    
+                    <div class="lateral-direita hideen" id="sidebar">
+                
+                        <img src="src/img-suap/logo-suap.png" class="lateral-direita-img">
+
+                        <button class="toggle-btn" id="toggleBtn">▶</button>
+                
+                    </div>
+
+                </header>
+
+                <main>
+
+                    <nav>
+                        <ul class="menu-solicitação">  
+                            <a href="index.html"><li class="menu-solicitação-itens">Início >></li></a>
+                            <a href="Solicitação de senha.html"><li class="menu-solicitação-itens">Solicitação de mudançade senha</li></a>
+                        </ul>
+                    </nav>
+
+                    <h1 class="titulo-solicitação-de-senha">
+                        Solicitação de mudança de senha
+                    </h1>
+
+                    <form>
+            
+                        <div class="formulário">
+
+                            <div class="usuário">
+            
+                                <div class="flex-dos-inputs">
+
+                                    <h1 class="digitação-usuario">Usuário: *</h1>
+
+                                    <input class="input-usuario" type="text">
+
+                                </div>
+
+                                <p class="paragrafo-form">Informe a sua matrícula, caso seja servidor ou aluno, ou o seu CPF. </p>  
+
+                            </div>
+
+                            <div class="cpf">
+
+                                <div class="flex-dos-inputs">
+
+                                    <h1 class="digitação-cpf">CPF: *</h1>
+
+                                    <input class="input-cpf" type="number">
+            
+                                </div>
+                        
+                                <p class="paragrafo-form">Preencha somente números ou no formato padrão com pontos e traço: 000.000.000-00</p>
+
+                            </div>
+            
+                            <div class="recaptcha">
+
+                                <h1 class="digitação-recaptcha">Recaptcha: *</h1>
+
+                                <div class="caixa-do-recaptcha">
+
+                                    <input class="input-recaptcha" type="checkbox">
+
+                                    <p class="paragrafo-recaptcha">Não sou um robô</p>
+
+                                    <img src="src/img-suap/recaptcha.png" alt=" logo reCAPTCHA" 
+                                    id="img-recaptcha">
+
+                                </div>
+
+                            </div>    
+
+                        </div>
+
+                        <p>
+                            <button class="btn-enviar">Enviar</button>
+                        </p>
+
+                    </form>
+
+                </main>
+
+            </div>    
+        
+            <script src="js/Script-solicitacao.js"></script>
+
+        </body>
+
+    </html>

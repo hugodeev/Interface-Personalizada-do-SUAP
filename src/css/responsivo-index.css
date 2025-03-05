@@ -1,0 +1,67 @@
+
+@media screen and (max-width: 500px) {
+
+    .responsividade-cetral-do-conteudo{
+        background-color: #333333;
+        width: 100%;
+        margin: 0;
+        justify-items: none;
+        margin-left: 0px;
+    }
+
+    .main-principal{
+        background-color: #333333;
+        width: 340px ;
+        height: 0%;
+        padding-top: 0px;
+        padding-left: 0px;
+        border-radius: 3px;
+        padding: 15px; 
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .formulário{
+        background-color: rgb(235, 232, 232);
+        width: 300px;
+        height: 470px;
+        border-radius: 10px;
+        padding: 15px;
+        margin: auto;      
+    }   
+
+    .formulário-e-serviços{
+        display: block;  
+    }
+
+    .formulário-inputs{
+        width: 212px;
+        height: 33px;
+        border-radius: 3px;
+        font-size: 14px;
+        padding-left: 5px;
+        margin-left: 44px;
+        border-color: rgb(219, 211, 211);
+    }
+
+    .formulário-butt{
+        margin-top: 35px;
+        border-radius: 23px;
+        margin-left: 43px;
+        height: 44px; 
+        width: 225px;
+        background-color: #449D44;
+        color: aliceblue;
+        border: #449D44; 
+        cursor: pointer;
+    }
+    
+    .logo-suap{   
+        margin: auto; 
+        width: 160px;
+        padding-top: 40px ;
+        padding-left: 0%;
+        margin-left: 80px;   
+    }
+
+}
