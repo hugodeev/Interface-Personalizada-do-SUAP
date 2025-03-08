@@ -16,6 +16,7 @@
 
             <div class="responsividade-cetral-do-conteudo">
 
+                <!-- Cabeçalho do Site - Lateral Direita -->
                 <header>
                     
                     <div class="lateral-direita hideen" id="sidebar">
@@ -28,8 +29,10 @@
 
                 </header>
 
+                <!-- Conteúdo do Site - Menu Solicitação e Formulario -->
                 <main>
 
+                    <!-- Exportação Para Outras Páginas - Para Área de Login Inicial -->
                     <nav>
                         <ul class="menu-solicitação">  
                             <a href="index.html"><li class="menu-solicitação-itens">Início >></li></a>
@@ -41,50 +44,51 @@
                         Solicitação de mudança de senha
                     </h1>
 
+                    <!-- Formulario Para Solicitação de Senha Esquecida (Usuário, CPF e Recaptcha) -->
                     <form>
             
                         <div class="formulário">
 
-                            <div class="usuário">
+                            <div class="area-usuário">
             
-                                <div class="flex-dos-inputs">
+                                <div class="flexivel-dos-inputs">
 
-                                    <h1 class="digitação-usuario">Usuário: *</h1>
+                                    <h1 class="title-usuario">Usuário: *</h1>
 
                                     <input class="input-usuario" type="text">
 
                                 </div>
 
-                                <p class="paragrafo-form">Informe a sua matrícula, caso seja servidor ou aluno, ou o seu CPF. </p>  
+                                <p class="paragrafo-aviso">Informe a sua matrícula, caso seja servidor ou aluno, ou o seu CPF. </p>  
 
                             </div>
 
-                            <div class="cpf">
+                            <div class="area-cpf">
 
-                                <div class="flex-dos-inputs">
+                                <div class="flexivel-dos-inputs">
 
-                                    <h1 class="digitação-cpf">CPF: *</h1>
+                                    <h1 class="title-cpf">CPF: *</h1>
 
                                     <input class="input-cpf" type="number">
             
                                 </div>
                         
-                                <p class="paragrafo-form">Preencha somente números ou no formato padrão com pontos e traço: 000.000.000-00</p>
+                                <p class="paragrafo-aviso">Preencha somente números ou no formato padrão com pontos e traço: 000.000.000-00</p>
 
                             </div>
             
-                            <div class="recaptcha">
+                            <div class="area-recaptcha">
 
-                                <h1 class="digitação-recaptcha">Recaptcha: *</h1>
+                                <h1 class="title-recaptcha">Recaptcha: *</h1>
 
-                                <div class="caixa-do-recaptcha">
+                                <div class="conteiner-recaptcha">
 
                                     <input class="input-recaptcha" type="checkbox">
 
                                     <p class="paragrafo-recaptcha">Não sou um robô</p>
 
                                     <img src="src/img-suap/recaptcha.png" alt=" logo reCAPTCHA" 
-                                    id="img-recaptcha">
+                                    class="icon-recaptcha">
 
                                 </div>
 
@@ -94,7 +98,7 @@
 
                         <p>
                             <button class="btn-enviar">Enviar</button>
-                        </p>
+                        </p>    
 
                     </form>
 

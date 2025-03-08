@@ -1,15 +1,17 @@
 
-@media screen and (max-width: 500px){
+/* Configurações Para Telas Mobile */
 
-    .toggle-btn {
-        top: 70%;
-        margin-left: 45px;
-    }
+@media screen and (max-width: 500px){
 
     .lateral-direita{
         width: 200px;
     }
     
+    .toggle-btn {
+        top: 70%;
+        margin-left: 45px;
+    }
+
     .menu-solicitação{
         margin-left: 30px;
     }
@@ -24,30 +26,29 @@
         margin-left: 30px;
     }
 
-    .digitação-usuario{
+    .paragrafo-aviso{
         margin-left: 12px;
     }
 
-    .digitação-cpf{
+    .title-usuario{
         margin-left: 12px;
     }
 
-    .digitação-recaptcha{
+    .title-cpf{
         margin-left: 12px;
-        margin-top: 30px;
     }
 
     .input-cpf{
         margin-left: 36px;
     }
 
-    .paragrafo-form{
+    .title-recaptcha{
         margin-left: 12px;
+        margin-top: 30px;
     }
 
     .btn-enviar{
         margin-left: 30px;
     }
-
 
 }

@@ -1,4 +1,6 @@
 
+/* Configurações Para Telas Mobile */
+
 @media screen and (max-width: 500px) {
 
     .responsividade-cetral-do-conteudo{
@@ -20,6 +22,10 @@
         margin-left: 0px;
         margin-top: 40px;
     }
+    
+    .formulário-e-serviços{
+        display: block;  
+    }
 
     .formulário{
         background-color: rgb(235, 232, 232);
@@ -29,9 +35,13 @@
         padding: 15px;
         margin: auto;      
     }   
-
-    .formulário-e-serviços{
-        display: block;  
+    
+    .logo-suap{
+        margin: auto; 
+        width: 160px;
+        padding-top: 40px ;
+        padding-left: 0%;
+        margin-left: 80px;   
     }
 
     .formulário-inputs{
@@ -54,14 +64,6 @@
         color: aliceblue;
         border: #449D44; 
         cursor: pointer;
-    }
-    
-    .logo-suap{   
-        margin: auto; 
-        width: 160px;
-        padding-top: 40px ;
-        padding-left: 0%;
-        margin-left: 80px;   
     }
 
 }
